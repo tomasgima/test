@@ -1,0 +1,111 @@
+/*Comienzo nav*/
+.nav{
+    padding: 2px;
+    margin: 2px;
+    text-align: center;
+    font-size: 24px;
+    background-color: rgb(199, 199, 199);
+    word-spacing: 30pt;
+}
+li{
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;
+    display: inline-block;
+    font-weight: bold;   
+}
+
+/*Fin nav*/
+
+/*Comienzo main*/
+main{
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    flex-direction: column;
+         
+    
+}
+h1{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+h3{
+    text-align-last: center;
+}
+
+.container-card{
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+
+
+}
+.card{
+     width: 50%;
+     align-items: center;
+    
+}
+
+.photomain{
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+}   
+
+.card-title{
+    text-align: center;
+}
+
+.card-body{
+    text-align: center;
+}
+
+
+/*Fin main*/
+
+/*Contacto*/
+
+form{
+    padding: 30px;
+    margin: 30px;
+    justify-content: center; 
+    align-items: center;
+    
+}
+
+h4{
+    text-align: center;
+}
+
+.container-form{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Footer*/
+
+.social{
+    
+    padding: 10px;
+    margin: 10px;
+    display: inline;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+   
+}
+
+.redes{
+    display: flex;
+    justify-content: right;
+}
+
+.img{
+    width: 48px;
+    height: 48px;
+    
+}
+
+
