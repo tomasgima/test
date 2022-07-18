@@ -19,6 +19,7 @@ li{
 /*Comienzo main*/
 main{
     background-image: url(https://images.unsplash.com/photo-1474540412665-1cdae210ae6b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2F0ZXIlMjBjYWxtfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+    background-size: cover;
     padding: 10px;
     margin: 10px;
     font-family: 'Oswald', sans-serif;
