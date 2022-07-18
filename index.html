@@ -22,6 +22,8 @@
     <link rel="stylesheet" href="style.css">
     <!-- MDB -->
     <link rel="stylesheet" href="css/mdb.min.css" />
+    <!--AOS Link-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     </head>
 
   <body>
@@ -56,9 +58,11 @@
 
   <main>
   <div>
-    <h1>Inicio</h1>
+    <h1 data-aos="fade-down">Inicio</h1>
     <hr>
-    <h3>El sitio para encontrar las mejores imagenes de playas, montañas y lagos.</h3>
+    <h3 data-aos="flip-left"
+    data-aos-easing="linear"
+    data-aos-duration="2000">El sitio para encontrar las mejores imagenes de playas, montañas y lagos.</h3>
     <hr>
 
   </div>
@@ -190,8 +194,10 @@
     <!-- Custom scripts -->
     <script type="text/javascript"></script>
 
-    
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
    
 
   </body>
